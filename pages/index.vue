@@ -12,18 +12,22 @@
         <span class="font-light text-2xl md:whitespace-nowrap"
           >Senior Software Engineer</span
         >
-        <span class="font-extralight">
-          <span
-            >A software engineer that has a 12 years of experience in
+        <div>
+          <span class="font-extralight">
+            A software engineer that has a 12 years of experience in
             fullstack</span
           >
-          <span
-            >development for complex scalable web apps. Want to know how I may
+          <span class="font-extralight">
+            development for complex scalable web apps. Want to know how I may
             help</span
           >
-          <span> your project? Check out my</span>
-          <NuxtLink to="/resume" class="text-blue-700"> resume</NuxtLink>.
-        </span>
+          <span class="font-extralight"
+            >your project? Check out my
+            <NuxtLink to="/resume" class="text-blue-700">
+              resume</NuxtLink
+            ></span
+          >
+        </div>
       </div>
     </div>
     <span class="text-center mt-10 font-bold text-2xl">Skills</span>
