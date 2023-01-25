@@ -77,7 +77,6 @@
         <NuxtImg
           format="webp"
           quality="80"
-          preload
           loading="lazy"
           src="mybatis.png"
           width="28"

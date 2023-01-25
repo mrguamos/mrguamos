@@ -32,8 +32,27 @@
     /></NuxtLink>
   </div>
   <hr class="mt-5" />
-
-  <slot />
+  <ul class="mt-10 space-y-2 text-left px-10">
+    <li>
+      <NuxtLink
+        class="inline-flex items-center justify-center"
+        to="/"
+        active-class="text-teal-700"
+        @click="!mobile || emit('close')"
+        ><Icon name="uil:user" class="w-5 h-5 mr-5" /> About Me</NuxtLink
+      >
+    </li>
+    <li>
+      <NuxtLink
+        class="inline-flex items-center justify-center"
+        to="/resume"
+        active-class="text-teal-700"
+        @click="!mobile || emit('close')"
+        ><Icon name="ri:file-paper-2-line" class="w-5 h-5 mr-5" />
+        Resume</NuxtLink
+      >
+    </li>
+  </ul>
   <div class="flex flex-col mt-auto">
     <span class="">Powered By:</span>
     <span class="mt-2 mb-10"
@@ -50,6 +69,11 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+defineProps<{
+  mobile?: boolean
+}>()
+const emit = defineEmits(['close'])
+</script>
 
 <style scoped></style>

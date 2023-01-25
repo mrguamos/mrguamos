@@ -26,29 +26,7 @@
           aria-label="Close Menu"
         />
       </button>
-      <SideNavContent>
-        <ul class="mt-10 space-y-2 text-left px-10">
-          <li>
-            <NuxtLink
-              class="inline-flex items-center justify-center"
-              to="/"
-              active-class="text-teal-700"
-              @click="emit('close')"
-              ><Icon name="uil:user" class="w-5 h-5 mr-5" /> About Me</NuxtLink
-            >
-          </li>
-          <li>
-            <NuxtLink
-              class="inline-flex items-center justify-center"
-              to="/resume"
-              active-class="text-teal-700"
-              @click="emit('close')"
-              ><Icon name="ri:file-paper-2-line" class="w-5 h-5 mr-5" />
-              Resume</NuxtLink
-            >
-          </li>
-        </ul>
-      </SideNavContent>
+      <SideNavContent mobile @close="emit('close')" />
     </div>
   </aside>
 </template>
