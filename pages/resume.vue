@@ -3,7 +3,7 @@
     <div
       class="flex flex-col bg-gradient-to-r from-green-100 via-green-200 to-green-300 items-center justify-center p-20"
     >
-      <span class="font-semibold text-4xl md:whitespace-nowrap"
+      <span class="font-semibold text-4xl md:whitespace-nowrap text-center"
         >Online Resume</span
       >
       <NuxtLink
