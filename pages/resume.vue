@@ -20,7 +20,15 @@
       <span class="text-5xl">WIP </span>
 
       <div class="flex mt-2">
-        <div class="dot-collision"></div>
+        <span
+          class="bg-black text-black left-[-10px] w-3 h-3 inline-block top-0 before rounded-full"
+        ></span>
+        <div
+          class="dot-collision relative w-3 h-3 rounded-full bg-black text-black"
+        ></div>
+        <span
+          class="bg-black text-black left-[10px] w-3 h-3 inline-block top-0 rounded-full after"
+        ></span>
       </div>
     </div>
   </div>
@@ -28,52 +36,33 @@
 
 <script setup lang="ts"></script>
 <style scoped>
-.dot-collision {
-  position: relative;
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
-  background-color: #9880ff;
-  color: #9880ff;
-}
-.dot-collision::before,
-.dot-collision::after {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  top: 0;
-}
-@keyframes dot-collision-before {
+@keyframes before {
   0%,
   50%,
   75%,
   100% {
-    transform: translateX(0);
+    transform: translate(0px, 0px);
   }
   25% {
-    transform: translateX(-15px);
+    transform: translate(-10px, -15px);
   }
 }
-@keyframes dot-collision-after {
+@keyframes after {
   0%,
   50%,
   75%,
   100% {
-    transform: translateX(0);
+    transform: translate(0, 0px);
   }
   25% {
-    transform: translateX(15px);
+    transform: translate(10px, -15px);
   }
 }
-.dot-collision::before {
-  @apply bg-[#9880ff] text-[#9880ff] left-[-10px] w-[10px] h-[10px];
-  animation: dot-collision-before 2s infinite ease-in;
-  border-radius: 5px;
+.before {
+  animation: before 2s infinite ease-in;
 }
-.dot-collision::after {
-  @apply bg-[#9880ff] text-[#9880ff] left-[10px] w-[10px] h-[10px];
-  animation: dot-collision-after 2s infinite ease-in;
-  border-radius: 5px;
+.after {
+  animation: after 2s infinite ease-in;
   animation-delay: 1s;
 }
 </style>
