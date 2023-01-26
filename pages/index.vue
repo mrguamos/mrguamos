@@ -14,18 +14,11 @@
         >
         <div>
           <span class="font-extralight">
-            A software engineer that has a 10+ years of experience in
-            fullstack</span
-          >
-          <span class="font-extralight">
+            A software engineer that has a 10+ years of experience in fullstack
             development for complex scalable web apps. Want to know how I may
-            help</span
-          >
-          <span class="font-extralight"
-            >your project? Check out my
-            <NuxtLink to="/resume" class="text-blue-700">
-              resume</NuxtLink
-            ></span
+            help with your project? Please check out my
+            <NuxtLink to="/resume" class="text-blue-700"> resume</NuxtLink
+            >.</span
           >
         </div>
       </div>

@@ -7,7 +7,7 @@
         >Online Resume</span
       >
       <NuxtLink
-        href="/cv.pdf"
+        href="/Resume-Mark-Ryan-Guamos.pdf"
         class="inline-flex justify-center items-center bg-transparent border-2 border-black p-3 rounded-md mt-5"
         target="_blank"
       >
@@ -17,7 +17,7 @@
     </div>
     <div class="flex flex-col grow lg:m-20 items-center justify-center">
       <Icon name="fa6-solid:road-barrier" class="w-32 h-32 text-yellow-300" />
-      <span class="text-5xl">WIP </span>
+      <span class="text-5xl">WIP</span>
 
       <div class="flex mt-2">
         <span
@@ -30,6 +30,9 @@
           class="bg-black text-black left-[10px] w-3 h-3 inline-block top-0 rounded-full after"
         ></span>
       </div>
+      <span class="mt-5 text-thin text-slate-500/80 text-xs"
+        >( For the meantime, you can download my resume in PDF format. )</span
+      >
     </div>
   </div>
 </template>
