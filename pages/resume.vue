@@ -7,7 +7,7 @@
         >Online Resume</span
       >
       <NuxtLink
-        href="/cv.doc"
+        href="/cv.pdf"
         class="inline-flex justify-center items-center bg-transparent border-2 border-black p-3 rounded-md mt-5"
         target="_blank"
       >

@@ -14,7 +14,7 @@
         >
         <div>
           <span class="font-extralight">
-            A software engineer that has a 12 years of experience in
+            A software engineer that has a 10+ years of experience in
             fullstack</span
           >
           <span class="font-extralight">
