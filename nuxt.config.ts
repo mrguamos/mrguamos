@@ -22,6 +22,12 @@ export default defineNuxtConfig({
       ],
       script: [
         {
+          children: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-41VBZZX1K2');
+          `,
           src: 'https://www.googletagmanager.com/gtag/js?id=G-41VBZZX1K2',
           async: true,
           type: 'text/partytown',
