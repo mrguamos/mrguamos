@@ -20,34 +20,4 @@
 </template>
 
 <script setup lang="ts"></script>
-<style scoped>
-@keyframes before {
-  0%,
-  50%,
-  75%,
-  100% {
-    transform: translate(0px, 0px);
-  }
-  25% {
-    transform: translate(-10px, -15px);
-  }
-}
-@keyframes after {
-  0%,
-  50%,
-  75%,
-  100% {
-    transform: translate(0, 0px);
-  }
-  25% {
-    transform: translate(10px, -15px);
-  }
-}
-.before {
-  animation: before 2s infinite ease-in;
-}
-.after {
-  animation: after 2s infinite ease-in;
-  animation-delay: 1s;
-}
-</style>
+<style scoped></style>

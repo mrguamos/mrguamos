@@ -52,6 +52,16 @@
         Resume</NuxtLink
       >
     </li>
+    <li>
+      <NuxtLink
+        class="inline-flex items-center justify-center"
+        to="/projects"
+        active-class="text-teal-700"
+        @click="!mobile || emit('close')"
+        ><Icon name="fa6-solid:computer" class="w-5 h-5 mr-5" />
+        Projects</NuxtLink
+      >
+    </li>
   </ul>
   <div class="flex flex-col mt-auto">
     <span class="">Powered By:</span>
