@@ -15,25 +15,7 @@
         <Icon name="grommet-icons:document-pdf" class="ml-2 w-5 h-5" />
       </NuxtLink>
     </div>
-    <div class="flex flex-col grow lg:m-20 items-center justify-center">
-      <Icon name="fa6-solid:road-barrier" class="w-32 h-32 text-yellow-300" />
-      <span class="text-5xl">WIP</span>
-
-      <div class="flex mt-2">
-        <span
-          class="bg-black text-black left-[-10px] w-3 h-3 inline-block top-0 before rounded-full"
-        ></span>
-        <div
-          class="dot-collision relative w-3 h-3 rounded-full bg-black text-black"
-        ></div>
-        <span
-          class="bg-black text-black left-[10px] w-3 h-3 inline-block top-0 rounded-full after"
-        ></span>
-      </div>
-      <span class="mt-5 text-thin text-slate-500/80 text-xs"
-        >( For the meantime, you can download my resume in PDF format. )</span
-      >
-    </div>
+    <object data="/resume.html" class="w-full h-full bg-white" />
   </div>
 </template>
 

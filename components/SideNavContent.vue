@@ -5,7 +5,7 @@
       quality="80"
       preload
       loading="lazy"
-      src="avatar.jpeg"
+      src="avatar.webp"
       class="rounded-full"
       width="200"
       height="200"
