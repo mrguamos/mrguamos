@@ -1,0 +1,197 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Mark Ryan Guamos",
+      "label": "Software Engineer",
+      "email": "ryan.guamos@gmail.com",
+      "phone": "+639178014376",
+      "website": "https://mrguamos.vercel.app",
+      "summary": "A Senior Software Engineer with 10+ years of professional experience, specializing in fullstack development, Java, SQL, and Javascript. A proven track record of managing large scale software engineering projects to support cloud deployments and integrations.",
+      "location": {
+        "countryCode": "PH",
+        "address": "Metro Manila"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "mark-ryan-guamos",
+          "url": "https://www.linkedin.com/in/mark-ryan-guamos/"
+        }, {
+          "network": "github",
+          "username": "mrguamos",
+          "url": "https://github.com/mrguamos"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Amihan Solutions",
+        "position": "Software Engineer",
+        "startDate": "2022-07-31",
+        "endDate": "",
+        "highlights": [
+          "Resonsbile for application maintenance across the codebase.",
+          "Resonsbile for adding new features in the application.",
+          "Did application integration with clients and third-party providers.",
+          "Did application support for multiple clients.",
+          "Utilized AWS cloud services."
+        ],
+        "url": "https://www.linkedin.com/company/amihansolutions/",
+        "location": "Philippines"
+      },
+      {
+        "name": "Shang Software Solutions",
+        "position": "Software Engineer",
+        "startDate": "2017-11-30",
+        "endDate": "2022-06-30",
+        "highlights": [
+          "Improved existing applications and fixed concurrency issues.",
+          "Automated processes and regression tests using Selenium/Appium/Playwright.",
+          "Developed monitoring tools.",
+          "Developed online payment gateway (kind of).",
+          "Utilized DevOps tools like CI/CD, Docker, and Kubernetes.",
+          "Participated on migrating on-premise applications to Azure."
+        ],
+        "url": "",
+        "location": "Makati"
+      },
+      {
+        "name": "Yondu, Inc.",
+        "position": "Software Engineer",
+        "startDate": "2016-08-31",
+        "endDate": "2017-10-31",
+        "highlights": [
+          "Responsible for application maintenance and SQL optimizations.",
+          "Mentored some developers on fullstack development.",
+          "Did application revamp."
+        ],
+        "url": "https://www.linkedin.com/company/yonduinc/"
+      },
+      {
+        "name": "iServe Customer Management Solutions Inc.",
+        "position": "Software Engineer",
+        "startDate": "2014-12-31",
+        "endDate": "2016-07-31",
+        "highlights": [
+          "Led a small team of developers.",
+          "Developed a Legal Case Management System for a gov't agency.",
+          "Mentored some junior developers."
+        ],
+        "url": ""
+      },
+      {
+        "name": "New World Solutions Ltd",
+        "position": "Software Engineer",
+        "startDate": "2013-01-31",
+        "endDate": "2014-11-30",
+        "highlights": [
+          "Resonsbile for application maintenance across the codebase.",
+          "Resonsbile for adding new features in the application.",
+          "Assisted with QA testing."
+        ],
+        "url": ""
+      },
+      {
+        "name": "ODGS",
+        "position": "Software Engineer",
+        "startDate": "2012-01-31",
+        "endDate": "2013-01-31",
+        "highlights": [
+          "Resonsbile for application maintenance across the codebase.",
+          "Resonsbile for adding new features in the application.",
+          "Did application support."
+        ],
+        "url": "",
+        "location": "Makati"
+      },
+      {
+        "name": "AATi Technologies",
+        "position": "Software Engineer",
+        "startDate": "2010-11-30",
+        "endDate": "2011-09-30",
+        "highlights": [
+          "Helped with small bug fixes while learning Java and several Java frameworks.",
+          "Developed a small tool that parses handwritten values in a scanned form using OCR."
+        ],
+        "url": ""
+      }
+    ],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "International Electronics and Technical Institue",
+        "area": "Information Technology",
+        "studyType": "Bachelor of Science",
+        "startDate": "2006-12-31",
+        "endDate": "2010-12-31",
+        "score": "",
+        "courses": []
+      }
+    ],
+    "awards": [],
+    "certificates": [],
+    "publications": [],
+    "skills": [
+      {
+        "name": "Backend",
+        "keywords": [
+          "Java",
+          "Spring Boot",
+          "SQL",
+          "JPA",
+          "Hibernate",
+          "MyBatis",
+          "Nats",
+          "Message Queue",
+          "Pub/Sub",
+          "Websocket"
+        ]
+      }, {
+        "name": "Frontend",
+        "keywords": [
+          "Javascript",
+          "Typescript",
+          "React",
+          "Vue",
+          "Angular",
+          "TailwindCSS",
+          "HTML5"
+        ]
+      }, {
+        "name": "DevOps",
+        "keywords": [
+          "Docker",
+          "Kubernetes",
+          "CI/CD",
+          "AWS",
+          "ArgoCD",
+          "Selenium",
+          "Playwright"
+        ]
+      }, {
+        "name": "Others",
+        "keywords": [
+          "Blockchain",
+          "Solidity",
+          "Web3"
+        ]
+      }
+    ],
+    "interests": [
+      {
+        "keywords": [
+          "Music",
+          "Games",
+          "Technologies",
+          "Open Source",
+          "Traveling"
+        ]
+      }
+    ],
+    "references": [],
+    "projects": [],
+    "meta": {
+      "version": "v1.0.0",
+      "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    }
+  }
