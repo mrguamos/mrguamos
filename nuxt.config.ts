@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@vueuse/nuxt',
     '@nuxt/image-edge',
+    '@nuxtjs/partytown',
   ],
   css: ['/assets/global.css'],
   app: {
@@ -19,9 +20,19 @@ export default defineNuxtConfig({
       meta: [
         { name: 'description', content: 'Mark Ryan Guamos Online Portfolio' },
       ],
+      script: [
+        {
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-41VBZZX1K2',
+          async: true,
+          type: 'text/partytown',
+        },
+      ],
     },
   },
   tailwindcss: {
     exposeConfig: true,
+  },
+  partytown: {
+    forward: ['dataLayer.push'],
   },
 })
