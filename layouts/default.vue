@@ -17,20 +17,12 @@
 </template>
 
 <script setup lang="ts">
-import { xl } from '~~/libs/tailwind'
 const drawer = ref(false)
-
 const toggleDrawer = () => {
   drawer.value = !drawer.value
   if (drawer.value) document.body.style.overflow = 'hidden'
   else document.body.style.overflow = 'unset'
 }
-
-const { width } = useWindowSize()
-
-watch(width, () => {
-  if (width.value >= xl) drawer.value = false
-})
 </script>
 
 <style scoped></style>
