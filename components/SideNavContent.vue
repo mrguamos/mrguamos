@@ -37,7 +37,7 @@
       <NuxtLink
         class="inline-flex items-center justify-center"
         to="/"
-        active-class="text-teal-700"
+        active-class="text-teal-700 animate-pulse"
         @click="!mobile || emit('close')"
         ><Icon name="uil:user" class="w-5 h-5 mr-5" /> About Me</NuxtLink
       >
@@ -46,7 +46,7 @@
       <NuxtLink
         class="inline-flex items-center justify-center"
         to="/resume"
-        active-class="text-teal-700"
+        active-class="text-teal-700 animate-pulse"
         @click="!mobile || emit('close')"
         ><Icon name="ri:file-paper-2-line" class="w-5 h-5 mr-5" />
         Resume</NuxtLink
@@ -56,7 +56,7 @@
       <NuxtLink
         class="inline-flex items-center justify-center"
         to="/projects"
-        active-class="text-teal-700"
+        active-class="text-teal-700 animate-pulse"
         @click="!mobile || emit('close')"
         ><Icon name="fa6-solid:computer" class="w-5 h-5 mr-5" />
         Projects</NuxtLink
@@ -69,7 +69,20 @@
       ><NuxtLink to="https://vercel.com/" target="_blank" aria-label="Vercel">
         <Icon name="logos:vercel-icon" class="w-7 h-7"
       /></NuxtLink>
-      <NuxtLink to="https://vuejs.org/" target="_blank" aria-label="Vue">
+      <NuxtLink
+        to="https://vuejs.org/"
+        target="_blank"
+        aria-label="Vue"
+        class="animate-ping absolute"
+      >
+        <Icon name="logos:vue" class="w-7 h-7"
+      /></NuxtLink>
+      <NuxtLink
+        to="https://vuejs.org/"
+        target="_blank"
+        aria-label="Vue"
+        class=""
+      >
         <Icon name="logos:vue" class="w-7 h-7"
       /></NuxtLink>
       <NuxtLink to="https://nuxt.com/" target="_blank" aria-label="Nuxt">
