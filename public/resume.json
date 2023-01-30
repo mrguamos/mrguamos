@@ -31,7 +31,7 @@
         "endDate": "",
         "highlights": [
           "Responsible for application maintenance across the codebase.",
-          "Responsible for adding new features in the application.",
+          "Responsible for adding new features to the application.",
           "Did application integration with clients and third-party providers.",
           "Did application support for multiple clients.",
           "Utilized AWS cloud services."
@@ -48,9 +48,9 @@
           "Improved existing applications and fixed concurrency issues.",
           "Automated processes and regression tests using Selenium/Appium/Playwright.",
           "Developed monitoring tools.",
-          "Developed online payment gateway (kind of).",
+          "Developed an online payment gateway (kind of).",
           "Utilized DevOps tools like CI/CD, Docker, and Kubernetes.",
-          "Participated on migrating on-premise applications to Azure."
+          "Participated in migrating on-premise applications to Azure."
         ],
         "url": "",
         "location": "Makati"
@@ -86,7 +86,7 @@
         "endDate": "2014-11-30",
         "highlights": [
           "Responsible for application maintenance across the codebase.",
-          "Responsible for adding new features in the application.",
+          "Responsible for adding new features to the application.",
           "Assisted with QA testing."
         ],
         "url": ""
@@ -98,7 +98,7 @@
         "endDate": "2013-01-31",
         "highlights": [
           "Responsible for application maintenance across the codebase.",
-          "Responsible for adding new features in the application.",
+          "Responsible for adding new features to the application.",
           "Did application support."
         ],
         "url": "",
