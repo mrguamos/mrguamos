@@ -15,7 +15,7 @@
         <Icon name="grommet-icons:document-pdf" class="ml-2 w-5 h-5" />
       </NuxtLink>
     </div>
-    <object data="/resume.html" class="w-full h-full bg-white" />
+    <object type="text/html" data="/resume.html" class="w-full grow bg-white" />
   </div>
 </template>
 
