@@ -4,7 +4,6 @@
     <NuxtImg
       quality="80"
       preload
-      loading="lazy"
       src="avatar.webp"
       class="rounded-full"
       width="200"
