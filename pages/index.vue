@@ -122,7 +122,7 @@
           <Icon name="material-symbols:star" class="text-yellow-300 w-5 h-5" />
           <Icon name="material-symbols:star" class="text-yellow-300 w-5 h-5" />
           <Icon name="material-symbols:star" class="text-yellow-300 w-5 h-5" />
-          <Icon name="material-symbols:star-outline" class="w-5 h-5" />
+          <Icon name="material-symbols:star" class="text-yellow-300 w-5 h-5" />
           <Icon name="material-symbols:star-outline" class="w-5 h-5" />
         </span>
       </div>
