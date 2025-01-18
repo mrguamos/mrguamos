@@ -3,8 +3,10 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
   },
+
   modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/image-edge'],
   css: ['/assets/global.css'],
+
   app: {
     head: {
       title: 'Mark Ryan Guamos',
@@ -16,7 +18,10 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   tailwindcss: {
     exposeConfig: true,
   },
+
+  compatibilityDate: '2025-01-18',
 })

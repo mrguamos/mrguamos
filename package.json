@@ -5,7 +5,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "resume-pdf": "npx resume-cli export -r public/resume.json -f pdf -t relaxed public/Resume-Mark-Ryan-Guamos.pdf",
+    "resume-html": "npx resume-cli export -r public/resume.json -f html -t relaxed public/resume.html"
   },
   "devDependencies": {
     "@nuxt/image-edge": "1.0.0-27907872.f4dd19d",
@@ -15,9 +17,12 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "nuxt": "^3.1.1",
+    "jsonresume-theme-relaxed": "^0.1.11",
+    "nuxt": "^3.15.2",
     "nuxt-icon": "^0.2.6",
+    "pdftohtmljs": "^0.6.0",
     "prettier": "^2.8.3",
+    "resume-cli": "^3.1.2",
     "typescript": "^4.9.4",
     "vue-gtag-next": "^1.14.0"
   },

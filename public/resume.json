@@ -1,197 +1,222 @@
 {
-    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-    "basics": {
-      "name": "Mark Ryan Guamos",
-      "label": "Software Engineer",
-      "email": "ryan.guamos@gmail.com",
-      "phone": "+639178014376",
-      "website": "https://mrguamos.vercel.app",
-      "summary": "A Senior Software Engineer with 10+ years of professional experience, specializing in fullstack development, Java, SQL, and Javascript. A proven track record of managing large scale software engineering projects to support cloud deployments and integrations.",
-      "location": {
-        "countryCode": "PH",
-        "address": "Metro Manila"
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
+  "basics": {
+    "name": "Mark Ryan Guamos",
+    "label": "Software Engineer",
+    "email": "ryan.guamos@gmail.com",
+    "phone": "+639620546624",
+    "website": "https://mrguamos.vercel.app",
+    "summary": "A Senior Software Engineer with 10+ years of professional experience, specializing in fullstack development, Java, SQL, and Javascript. A proven track record of managing large scale software engineering projects to support cloud deployments and integrations.",
+    "location": {
+      "countryCode": "PH",
+      "address": "Metro Manila"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mark-ryan-guamos",
+        "url": "https://www.linkedin.com/in/mark-ryan-guamos/"
       },
-      "profiles": [
-        {
-          "network": "LinkedIn",
-          "username": "mark-ryan-guamos",
-          "url": "https://www.linkedin.com/in/mark-ryan-guamos/"
-        }, {
-          "network": "github",
-          "username": "mrguamos",
-          "url": "https://github.com/mrguamos"
-        }
+      {
+        "network": "github",
+        "username": "mrguamos",
+        "url": "https://github.com/mrguamos"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Cubework PH",
+      "position": "Lead Developer",
+      "startDate": "2024-07-22",
+      "summary": "Led the development team, overseeing technical standards, code quality, and continuous improvement. Utilized AI tools to enhance productivity and automate workflows.",
+      "highlights": [
+        "Established and maintained technical standards.",
+        "Ensured code quality and best practices.",
+        "Guided and mentored team members.",
+        "Planned and facilitated continuous improvement.",
+        "Leveraged AI tools to boost productivity and efficiency.",
+        "Integrated Generative AI solutions (Dify, n8n) to automate workflows."
+      ],
+      "url": "https://www.cubework.com.ph",
+      "location": "Philippines"
+    },
+    {
+      "name": "Nextbank",
+      "position": "Software Engineer",
+      "startDate": "2022-07-22",
+      "endDate": "2024-08-05",
+      "summary": "Developed and maintained cloud banking applications, utilizing IaC for deployment and management. Optimized code for performance and reliability, and implemented SQL performance improvements.",
+      "highlights": [
+        "Developed and maintained cloud banking applications (Core Banking, Electronic Transfers/Payments, ATM Services).",
+        "Utilized IaC (Terraform) for application deployment and management.",
+        "Optimized code for performance and reliability.",
+        "Implemented SQL performance improvements.",
+        "Maintained and supported the application codebase.",
+        "Added new features based on client requirements.",
+        "Integrated with client systems and third-party providers.",
+        "Provided application support for multiple clients.",
+        "Leveraged AWS services for scalable infrastructure."
+      ],
+      "url": "https://www.nextbank.ph",
+      "location": "Philippines"
+    },
+    {
+      "name": "Shang Software Solutions",
+      "position": "Software Engineer",
+      "startDate": "2017-11-30",
+      "endDate": "2022-06-30",
+      "summary": "Enhanced existing applications and resolved concurrency issues. Automated processes and regression tests (Selenium, Appium, Playwright). Developed custom monitoring tools. Utilized DevOps tools (CI/CD, Docker, Kubernetes). Contributed to on-premise to Azure migration efforts.",
+      "highlights": [
+        "Enhanced existing applications and resolved concurrency issues.",
+        "Automated processes and regression tests (Selenium, Appium, Playwright).",
+        "Developed custom monitoring tools.",
+        "Utilized DevOps tools (CI/CD, Docker, Kubernetes).",
+        "Contributed to on-premise to Azure migration efforts."
+      ],
+      "location": "Makati"
+    },
+    {
+      "name": "Yondu, Inc.",
+      "position": "Software Engineer",
+      "startDate": "2016-08-31",
+      "endDate": "2017-10-31",
+      "summary": "Maintained and optimized the application code (including SQL). Mentored developers on full-stack development. Revamped the application to modern standards.",
+      "highlights": [
+        "Maintained and optimized the application code (including SQL).",
+        "Mentored developers on full-stack development.",
+        "Revamped the application to modern standards."
+      ],
+      "url": "https://www.linkedin.com/company/yonduinc/"
+    },
+    {
+      "name": "iServe Customer Management Solutions Inc.",
+      "position": "Software Engineer",
+      "startDate": "2014-12-31",
+      "endDate": "2016-07-31",
+      "highlights": [
+        "Led a small development team.",
+        "Built a Legal Case Management System for a government agency.",
+        "Mentored junior developers."
       ]
     },
-    "work": [
-      {
-        "name": "Amihan Solutions",
-        "position": "Software Engineer",
-        "startDate": "2022-07-31",
-        "endDate": "",
-        "highlights": [
-          "Responsible for application maintenance across the codebase.",
-          "Responsible for adding new features to the application.",
-          "Did application integration with clients and third-party providers.",
-          "Did application support for multiple clients.",
-          "Utilized AWS cloud services."
-        ],
-        "url": "https://www.linkedin.com/company/amihansolutions/",
-        "location": "Philippines"
-      },
-      {
-        "name": "Shang Software Solutions",
-        "position": "Software Engineer",
-        "startDate": "2017-11-30",
-        "endDate": "2022-06-30",
-        "highlights": [
-          "Improved existing applications and fixed concurrency issues.",
-          "Automated processes and regression tests using Selenium/Appium/Playwright.",
-          "Developed monitoring tools.",
-          "Developed an online payment gateway (kind of).",
-          "Utilized DevOps tools like CI/CD, Docker, and Kubernetes.",
-          "Participated in migrating on-premise applications to Azure."
-        ],
-        "url": "",
-        "location": "Makati"
-      },
-      {
-        "name": "Yondu, Inc.",
-        "position": "Software Engineer",
-        "startDate": "2016-08-31",
-        "endDate": "2017-10-31",
-        "highlights": [
-          "Responsible for application maintenance and SQL optimizations.",
-          "Mentored some developers on fullstack development.",
-          "Did application revamp."
-        ],
-        "url": "https://www.linkedin.com/company/yonduinc/"
-      },
-      {
-        "name": "iServe Customer Management Solutions Inc.",
-        "position": "Software Engineer",
-        "startDate": "2014-12-31",
-        "endDate": "2016-07-31",
-        "highlights": [
-          "Led a small team of developers.",
-          "Developed a Legal Case Management System for a gov't agency.",
-          "Mentored some junior developers."
-        ],
-        "url": ""
-      },
-      {
-        "name": "New World Solutions Ltd",
-        "position": "Software Engineer",
-        "startDate": "2013-01-31",
-        "endDate": "2014-11-30",
-        "highlights": [
-          "Responsible for application maintenance across the codebase.",
-          "Responsible for adding new features to the application.",
-          "Assisted with QA testing."
-        ],
-        "url": ""
-      },
-      {
-        "name": "ODGS",
-        "position": "Software Engineer",
-        "startDate": "2012-01-31",
-        "endDate": "2013-01-31",
-        "highlights": [
-          "Responsible for application maintenance across the codebase.",
-          "Responsible for adding new features to the application.",
-          "Did application support."
-        ],
-        "url": "",
-        "location": "Makati"
-      },
-      {
-        "name": "AATi Technologies",
-        "position": "Software Engineer",
-        "startDate": "2010-11-30",
-        "endDate": "2011-09-30",
-        "highlights": [
-          "Helped with small bug fixes while learning Java and several Java frameworks.",
-          "Developed a small tool that parses handwritten values in a scanned form using OCR."
-        ],
-        "url": ""
-      }
-    ],
-    "volunteer": [],
-    "education": [
-      {
-        "institution": "International Electronics and Technical Institue",
-        "area": "Information Technology",
-        "studyType": "Bachelor of Science",
-        "startDate": "2006-12-31",
-        "endDate": "2010-12-31",
-        "score": "",
-        "courses": []
-      }
-    ],
-    "awards": [],
-    "certificates": [],
-    "publications": [],
-    "skills": [
-      {
-        "name": "Backend",
-        "keywords": [
-          "Java",
-          "Spring Boot",
-          "SQL",
-          "JPA",
-          "Hibernate",
-          "MyBatis",
-          "Nats",
-          "Message Queue",
-          "Pub/Sub",
-          "Websocket"
-        ]
-      }, {
-        "name": "Frontend",
-        "keywords": [
-          "Javascript",
-          "Typescript",
-          "React",
-          "Vue",
-          "Angular",
-          "TailwindCSS",
-          "HTML5"
-        ]
-      }, {
-        "name": "DevOps",
-        "keywords": [
-          "Docker",
-          "Kubernetes",
-          "CI/CD",
-          "AWS",
-          "ArgoCD",
-          "Selenium",
-          "Playwright"
-        ]
-      }, {
-        "name": "Others",
-        "keywords": [
-          "Blockchain",
-          "Solidity",
-          "Web3"
-        ]
-      }
-    ],
-    "interests": [
-      {
-        "keywords": [
-          "Music",
-          "Games",
-          "Technologies",
-          "Open Source",
-          "Traveling"
-        ]
-      }
-    ],
-    "references": [],
-    "projects": [],
-    "meta": {
-      "version": "v1.0.0",
-      "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    {
+      "name": "New World Solutions Ltd",
+      "position": "Software Engineer",
+      "startDate": "2013-01-31",
+      "endDate": "2014-11-30",
+      "highlights": [
+        "Maintained the application codebase.",
+        "Added new features to enhance functionality.",
+        "Assisted QA testing to ensure product quality."
+      ]
+    },
+    {
+      "name": "ODGS",
+      "position": "Software Engineer",
+      "startDate": "2012-01-31",
+      "endDate": "2013-01-31",
+      "highlights": [
+        "Maintained the application codebase.",
+        "Added new features to enhance functionality.",
+        "Provided application support."
+      ],
+      "location": "Makati"
+    },
+    {
+      "name": "AATi Technologies",
+      "position": "Software Engineer",
+      "startDate": "2010-11-30",
+      "endDate": "2011-09-30",
+      "highlights": [
+        "Assisted with minor bug fixes while learning Java and its frameworks.",
+        "Created a tool to parse handwritten form values using OCR."
+      ]
     }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "International Electronics and Technical Institute",
+      "area": "Information Technology",
+      "studyType": "Bachelor of Science",
+      "startDate": "2006-12-31",
+      "endDate": "2010-12-31",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Backend",
+      "level": "senior",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "SQL",
+        "JPA",
+        "Hibernate",
+        "MyBatis",
+        "Nats",
+        "Message Queue",
+        "Pub/Sub",
+        "Websocket"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "senior",
+      "keywords": [
+        "Javascript",
+        "Typescript",
+        "React",
+        "Vue",
+        "Angular",
+        "TailwindCSS",
+        "HTML5"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "senior",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "AWS",
+        "ArgoCD",
+        "Selenium",
+        "Playwright"
+      ]
+    },
+    {
+      "name": "Others",
+      "level": "senior",
+      "keywords": [
+        "Blockchain",
+        "Solidity",
+        "Web3"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "keywords": [
+        "Music",
+        "Games",
+        "Technologies",
+        "Open Source",
+        "Traveling"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.2.1",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.2.1/schema.json",
+    "theme": "relaxed"
   }
+}

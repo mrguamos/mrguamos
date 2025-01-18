@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full flex-col">
+  <div class="flex w-full flex-col mb-10">
     <div
       class="flex flex-col bg-gradient-to-r from-green-100 via-green-200 to-green-300 items-center justify-center p-20"
     >
